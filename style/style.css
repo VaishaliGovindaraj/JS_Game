@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    background-color: rgb(86, 75, 75);
+    color: rgb(255, 255, 255);
+    padding: 48px;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    padding: 8px;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.welcome {
+    font-size: 1.5rem;
+}
+
+.main_content {
+    padding: 32px 0 0 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.content {
+    font-size: 1.25rem;
+    padding: 32px 32px 32px 16px;
+    margin-bottom: 32px;
+    box-shadow: 10px;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.game_rules {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 75, 75);
+    padding: 32px;
+}
+
+
+.glowing-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+
+    box-shadow: 0 0 20px #00fe9b, 0 0 20px #00fe9b, 0 0 40px #00fe9b;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glowing-button:hover {
+    box-shadow: 0 0 30px #02c435, 0 0 40px #02c435, 0 0 60px #02c435;
+}
